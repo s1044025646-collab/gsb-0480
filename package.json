@@ -1,0 +1,17 @@
+{
+  "name": "phase-unwrap-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "一维角度相位连续展开与缺测分段恢复后端 (API + CLI)",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test test/unwrap.test.js",
+    "start": "node dist/cli.js serve",
+    "demo": "node dist/cli.js demo"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  },
+  "type": "commonjs"
+}
