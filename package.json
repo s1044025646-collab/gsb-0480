@@ -1,0 +1,25 @@
+{
+  "name": "phase-unwrap-backend",
+  "version": "1.0.0",
+  "description": "角度相位连续展开与缺测分段恢复后端",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test test/*.test.ts",
+    "start": "node dist/cli.js serve",
+    "cli": "tsx src/cli.ts",
+    "demo": "tsx src/cli.ts demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
